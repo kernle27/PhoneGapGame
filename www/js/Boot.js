@@ -6,7 +6,9 @@ function onDeviceReady () {
         
     game.state.add( "Boot", Boot );
 
+    //Test
     game.state.start( "Boot" );
+
 }
 
 document.addEventListener("deviceready", onDeviceReady, false );
